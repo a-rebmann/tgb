@@ -1,0 +1,46 @@
+<template>
+  <div>
+    <v-parallax src="shelf.jpg" height="700">
+      <v-layout style="margin-top:100px" align-center column justify-center>
+        <h1 class="display-4">
+          The
+          <i>
+            <b>Gaelbach</b>
+          </i>
+        </h1>
+        <h4 class="display-2">coming soon</h4>
+      </v-layout>
+    </v-parallax>
+    <v-layout row wrap>
+      <v-flex xs1></v-flex>
+      <v-flex xs10>
+        <!--router-link :to="{path:'/signup'}">BLA</router-link>
+        <v-timeline>
+          <v-timeline-item v-for="n in 1" :key="n" color="orange lighten-2" large>
+            <template v-slot:opposite>
+              <span>Date of something</span>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline">Title of something</v-card-title>
+              <v-card-text>Content of something.</v-card-text>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline-->
+      </v-flex>
+      <v-flex xs1></v-flex>
+    </v-layout>
+  </div>
+</template>
+
+<script>
+import { getMessage } from "../api";
+export default {
+  data: () => ({}),
+  created() {
+    //getMessage();
+  }
+};
+</script>
+
+<style>
+</style>
