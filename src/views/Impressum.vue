@@ -12,7 +12,7 @@
     <h2>Kontakt</h2>
     <p>
       Telefon: &#91;Telefonnummer&#93;
-      <br />E-Mail: info@thegaelach.com
+      <br />E-Mail: info@thegaelbach.com
     </p>
 
     <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
