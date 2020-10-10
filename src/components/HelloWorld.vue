@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-parallax src="shelf.jpg" height="700">
+    <v-parallax src="shelf.jpg" height="1200">
       <v-layout style="margin-top:100px" align-center column justify-center>
         <h1 class="display-4">
           The
@@ -8,13 +8,13 @@
             <b>Gaelbach</b>
           </i>
         </h1>
-        <h4 class="display-2">coming soon</h4>
+        <h4 class="display-2"></h4>
       </v-layout>
-    </v-parallax>
-    <v-layout row wrap>
-      <v-flex xs1></v-flex>
-      <v-flex xs10>
-        <!--router-link :to="{path:'/signup'}">BLA</router-link>
+      <v-layout row wrap>
+        <v-flex xs1></v-flex>
+        <v-flex xs10>
+          <embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" />
+          <!--router-link :to="{path:'/signup'}">BLA</router-link>
         <v-timeline>
           <v-timeline-item v-for="n in 1" :key="n" color="orange lighten-2" large>
             <template v-slot:opposite>
@@ -25,10 +25,11 @@
               <v-card-text>Content of something.</v-card-text>
             </v-card>
           </v-timeline-item>
-        </v-timeline-->
-      </v-flex>
-      <v-flex xs1></v-flex>
-    </v-layout>
+          </v-timeline-->
+        </v-flex>
+        <v-flex xs1></v-flex>
+      </v-layout>
+    </v-parallax>
   </div>
 </template>
 

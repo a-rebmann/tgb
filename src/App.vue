@@ -3,10 +3,7 @@
     <v-toolbar app>
       <v-toolbar-title class="headline text-lowercase">
         <span></span>
-        <span class="font-weight-light">
-          The
-          <i>Gaelbach</i>
-        </span>
+        <span class="font-weight-light">the gaelbach</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
@@ -18,6 +15,9 @@
       <router-link :to="{path:'/impressum'}">
         <b style="margin:20px">Impressum</b>
       </router-link>
+      <div>
+        <v-img src="logo.png" />
+      </div>
     </v-footer>
   </v-app>
 </template>
