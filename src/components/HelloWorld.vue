@@ -13,7 +13,7 @@
       <v-layout row wrap>
         <v-flex xs1></v-flex>
         <v-flex xs10>
-          <iframe src="TheGaelbach_Flyer.pdf" width="100%" height="100%" />
+          <embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" />
           <!--router-link :to="{path:'/signup'}">BLA</router-link>
         <v-timeline>
           <v-timeline-item v-for="n in 1" :key="n" color="orange lighten-2" large>
