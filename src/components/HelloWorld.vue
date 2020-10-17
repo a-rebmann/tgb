@@ -10,12 +10,12 @@
         </h1>
         <h4 class="display-2"></h4>
         <div>
-          <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
+          <v-btn href="tgb/public/TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
         </div>
       </v-layout>
     </v-parallax>
     <hr />
-    <v-layout row wrap style="background-color: #EFD9D2">
+    <v-layout row wrap style="background-color: #EBD2AD">
       <v-flex xs2></v-flex>
       <v-flex xs8>
         <!--embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" /-->
