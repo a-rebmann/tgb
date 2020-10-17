@@ -10,7 +10,7 @@
         </h1>
         <h4 class="display-2"></h4>
         <div>
-          <v-btn href="tgb/public/TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
+          <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
         </div>
       </v-layout>
     </v-parallax>
@@ -62,7 +62,7 @@ export default {
       {
         title: "Distillery Specials – Single Malt Klassiker",
         items: [
-          "ARDBEG",
+          "Ardbeg",
           "Auchentoshan",
           "Glenfiddich",
           "Glenmorangie",
