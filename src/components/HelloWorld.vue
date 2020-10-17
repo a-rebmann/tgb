@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-parallax src="shelf.jpg" height="1200">
-      <v-layout style="margin-top:100px" align-center column justify-center>
+    <v-parallax src="shelf.jpg" height="600">
+      <v-layout style="margin-top:100px" align-left column justify-center>
         <h1 class="display-4">
           The
           <i>
@@ -9,34 +9,101 @@
           </i>
         </h1>
         <h4 class="display-2"></h4>
-      </v-layout>
-      <v-layout row wrap>
-        <v-flex xs1></v-flex>
-        <v-flex xs10>
-          <embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" />
-          <!--router-link :to="{path:'/signup'}">BLA</router-link>
-        <v-timeline>
-          <v-timeline-item v-for="n in 1" :key="n" color="orange lighten-2" large>
-            <template v-slot:opposite>
-              <span>Date of something</span>
-            </template>
-            <v-card class="elevation-2">
-              <v-card-title class="headline">Title of something</v-card-title>
-              <v-card-text>Content of something.</v-card-text>
-            </v-card>
-          </v-timeline-item>
-          </v-timeline-->
-        </v-flex>
-        <v-flex xs1></v-flex>
+        <div>
+          <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
+        </div>
       </v-layout>
     </v-parallax>
+    <v-layout row wrap style="background-color: gray">
+      <v-flex xs2></v-flex>
+      <v-flex xs8>
+        <!--embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" /-->
+        <v-img width="20%" src="logo.png" />
+        <h1>Tasting - Auswahl</h1>
+        <!--router-link :to="{path:'/signup'}">BLA</router-link-->
+        <v-timeline>
+          <v-timeline-item v-for="item in contents" :key="item.title" color="black lighten-2" large>
+            <template v-slot:opposite>
+              <span></span>
+            </template>
+            <v-card class="elevation-2">
+              <v-card-title class="headline">{{item.title}}</v-card-title>
+              <v-card-text>
+                <ul>
+                  <li v-for="cont in item.items" :key="cont">{{cont}}</li>
+                </ul>
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline>
+      </v-flex>
+      <v-flex xs2></v-flex>
+    </v-layout>
   </div>
 </template>
 
 <script>
 import { getMessage } from "../api";
 export default {
-  data: () => ({}),
+  data: () => ({
+    contents: [
+      {
+        title: "Schottland – Rundreise alle Whisky-Regionen",
+        items: []
+      },
+      {
+        title: "Schottlands Whisky-Regionen im Detail",
+        items: ["Lowlands", "Highlands", "Speyside", "Campbeltown", "Islay"]
+      },
+      {
+        title: "Distillery Specials – Single Malt Klassiker",
+        items: [
+          "ARDBEG",
+          "Auchentoshan",
+          "Glenfiddich",
+          "Glenmorangie",
+          "Highland park",
+          "Macallan",
+          "… Nach Wahl"
+        ]
+      },
+      {
+        title: "Gordon & Macphail exclusiv",
+        items: ["Discovery", "Distillery Labels", "Connoisseurs Choice"]
+      },
+      { title: "Flora und Fauna Serie", items: [] },
+      {
+        title: "Blended Scotch",
+        items: ["Johnnie Walker Labels", "Berühmte Marken"]
+      },
+      {
+        title: "Das Holz",
+        items: [
+          "Einfluss Der Ersten Füllung",
+          "Fass-Finish",
+          "Fass-Stärke",
+          "Einzelfassabfüllungen"
+        ]
+      },
+      {
+        title: "Das ‚richtige‘ Alter",
+        items: [
+          "Youngster, Early Teens",
+          "12 bis 18 Jahre",
+          "Reife länger 18 Jahre"
+        ]
+      },
+      { title: "NAS-Whiskys", items: [] },
+      {
+        title: "nach persönlichem Wunsch",
+        items: [
+          "Vielfalt ohne Grenzen",
+          "Individuelle Auswahl",
+          " Spezielle Themen"
+        ]
+      }
+    ]
+  }),
   created() {
     //getMessage();
   }
