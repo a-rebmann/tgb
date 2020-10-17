@@ -3,7 +3,7 @@
     <v-toolbar app>
       <v-toolbar-title class="headline text-lowercase">
         <span></span>
-        <span class="font-weight-light">the gaelbach</span>
+        <span class="font-weight-light">the gaelbach - whisky tasting</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>

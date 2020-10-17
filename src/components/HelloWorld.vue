@@ -66,7 +66,7 @@ export default {
           "Auchentoshan",
           "Glenfiddich",
           "Glenmorangie",
-          "Highland park",
+          "Highland Park",
           "Macallan",
           "… Nach Wahl"
         ]
