@@ -14,12 +14,13 @@
         </div>
       </v-layout>
     </v-parallax>
-    <v-layout row wrap style="background-color: gray">
+    <hr />
+    <v-layout row wrap style="background-color: #EFD9D2">
       <v-flex xs2></v-flex>
       <v-flex xs8>
         <!--embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" /-->
-        <v-img width="20%" src="logo.png" />
-        <h1>Tasting - Auswahl</h1>
+        <!--v-img width="20%" src="logo.png" /-->
+        <h1 style="color:black">Tasting - Auswahl</h1>
         <!--router-link :to="{path:'/signup'}">BLA</router-link-->
         <v-timeline>
           <v-timeline-item v-for="item in contents" :key="item.title" color="black lighten-2" large>
@@ -39,6 +40,9 @@
       </v-flex>
       <v-flex xs2></v-flex>
     </v-layout>
+    <v-parallax src="shelf.jpg" height="300">
+      <v-layout align-left column justify-center></v-layout>
+    </v-parallax>
   </div>
 </template>
 
