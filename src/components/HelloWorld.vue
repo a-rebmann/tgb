@@ -12,6 +12,9 @@
         <div>
           <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
         </div>
+        <div>
+          <v-btn href="mailto:thegaelbach@gmail.com" target="_blank">Kontakt aufnehmen</v-btn>
+        </div>
       </v-layout>
     </v-parallax>
     <hr />
