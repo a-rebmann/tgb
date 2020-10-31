@@ -3,14 +3,14 @@
     <v-parallax src="shelf.jpg" height="600">
       <v-layout style="margin-top:100px" align-left column justify-center>
         <h1 class="display-4">
-          The
+          the
           <i>
-            <b>Gaelbach</b>
+            <b>GAELBACH</b>
           </i>
         </h1>
         <h4 class="display-2"></h4>
         <div>
-          <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Zum Flyer</v-btn>
+          <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Unser Angebot</v-btn>
         </div>
         <div>
           <v-btn href="mailto:thegaelbach@gmail.com" target="_blank">Kontakt aufnehmen</v-btn>
