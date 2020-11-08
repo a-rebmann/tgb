@@ -2,8 +2,8 @@
   <div>
     <v-parallax src="shelf.jpg" height="600">
       <v-layout style="margin-top:100px" align-left column justify-center>
-        <h1 class="display-4">
-          the
+        <h1 :class="$vuetify.breakpoint.xs ? 'display-3' : 'display-4'">
+          The
           <i>
             <b>GAEL</b><b>BACH</b>
           </i>
@@ -31,8 +31,8 @@
     </v-parallax>
     
     <v-layout row wrap style="background-color: #EBD2AD">
-      <v-flex xs2></v-flex>
-      <v-flex xs8>
+      
+      <v-flex xs12>
         <!--embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" /-->
         <!--v-img width="20%" src="logo.png" /-->
         <div class="display-3" style="color:black; margin:20px" align="center"
@@ -46,8 +46,8 @@
           align="center"
           justify="center"
         >
-              <div> <v-sheet class="headline">{{item.title}}</v-sheet>
-              <v-sheet class="subtitle-1" v-for="cont in item.items" :key="cont">{{cont}}</v-sheet>
+              <div> <v-sheet :class="$vuetify.breakpoint.xs ? 'body' : 'headline'">{{item.title}}</v-sheet>
+              <v-sheet :class="$vuetify.breakpoint.xs ? 'subtitle-2' : 'subtitle-1'" v-for="cont in item.items" :key="cont">{{cont}}</v-sheet>
               </div>
             </v-row>
       </v-sheet>
@@ -68,7 +68,7 @@
         </v-timeline-->
         </v-carousel>
       </v-flex>
-      <v-flex xs2></v-flex>
+      
     </v-layout>
     <v-parallax src="shelf.jpg" height="300">
       <v-layout align-left column justify-center></v-layout>
