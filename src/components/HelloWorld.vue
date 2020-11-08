@@ -38,7 +38,7 @@
         <div class="display-3" style="color:black; margin:20px" align="center"
           justify="center">Tasting - Auswahl</div>
         <!--router-link :to="{path:'/signup'}">BLA</router-link-->
-        <v-carousel :cycle="true" hide-delimiters height="200" style="margin-bottom:20px">
+        <v-carousel :cycle="true" hide-delimiters height="250" style="margin-bottom:20px">
     <v-carousel-item two-line v-for="item in contents" :key="item.title">
       <v-sheet height="100%" >
             <v-row
