@@ -4,7 +4,7 @@
 
     <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
     <p>
-      Christian Remann
+      Christian Rebmann
       <br />Hirschackerweg 22
       <br />66453 Gersheim
     </p>
