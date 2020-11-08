@@ -5,28 +5,54 @@
         <h1 class="display-4">
           the
           <i>
-            <b>GAELBACH</b>
+            <b>GAEL</b><b>BACH</b>
           </i>
         </h1>
-        <h4 class="display-2"></h4>
-        <div>
+        <div style="margin:5px">
           <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Unser Angebot</v-btn>
         </div>
-        <div>
+        <div style="margin:5px">
+          <v-btn href="geplanteEvents.pdf" target="_blank">Geplante Events</v-btn><br>
+          <v-banner two-line style="margin:5px; color:white;background-color:black">
+    <v-icon
+      slot="icon"
+      color="warning"
+      size="36"
+    >
+      warning
+    </v-icon>
+    Aufgrund der aktuellen Einschränkungen, können zur Zeit keine Events terminiert und durchgeführt werden. 
+  </v-banner>
+        </div>
+        <div style="margin:5px">
           <v-btn href="mailto:thegaelbach@gmail.com" target="_blank">Kontakt aufnehmen</v-btn>
         </div>
       </v-layout>
     </v-parallax>
-    <hr />
+    
     <v-layout row wrap style="background-color: #EBD2AD">
       <v-flex xs2></v-flex>
       <v-flex xs8>
         <!--embed src="TheGaelbach_Flyer.pdf" width="100%" height="100%" /-->
         <!--v-img width="20%" src="logo.png" /-->
-        <h1 style="color:black">Tasting - Auswahl</h1>
+        <div class="display-3" style="color:black; margin:20px" align="center"
+          justify="center">Tasting - Auswahl</div>
         <!--router-link :to="{path:'/signup'}">BLA</router-link-->
-        <v-timeline>
-          <v-timeline-item v-for="item in contents" :key="item.title" color="black lighten-2" large>
+        <v-carousel :cycle="true" hide-delimiters height="200" style="margin-bottom:20px">
+    <v-carousel-item two-line v-for="item in contents" :key="item.title">
+      <v-sheet height="100%" >
+            <v-row
+          class="fill-height"
+          align="center"
+          justify="center"
+        >
+              <div> <v-sheet class="headline">{{item.title}}</v-sheet>
+              <v-sheet class="subtitle-1" v-for="cont in item.items" :key="cont">{{cont}}</v-sheet>
+              </div>
+            </v-row>
+      </v-sheet>
+    </v-carousel-item>
+          <!--v-timeline-item v-for="item in contents" :key="item.title" color="black lighten-2" large>
             <template v-slot:opposite>
               <span></span>
             </template>
@@ -39,7 +65,8 @@
               </v-card-text>
             </v-card>
           </v-timeline-item>
-        </v-timeline>
+        </v-timeline-->
+        </v-carousel>
       </v-flex>
       <v-flex xs2></v-flex>
     </v-layout>

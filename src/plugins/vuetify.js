@@ -1,14 +1,14 @@
-import Vue from 'vue'
-import Vuetify from 'vuetify/lib'
-import 'vuetify/src/stylus/app.styl'
-// Helpers
-import colors from 'vuetify/es5/util/colors'
+// v2.0
+// src/plugins/vuetify.js
 
-Vue.use(Vuetify, {
-  theme: {
-    primary: colors.grey.lighten5, // #E53935
-    secondary: colors.grey.darken4, // #FFCDD2
-    accent: colors.grey.base // #3F51B5
+import Vue from 'vue';
+import Vuetify from 'vuetify/lib';
+
+Vue.use(Vuetify);
+
+export default new Vuetify({
+  theme: { dark: true },
+  icons: {
+    iconfont: 'mdi',
   },
-  iconfont: 'md',
-})
+});

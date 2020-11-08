@@ -15,9 +15,7 @@
       <router-link :to="{path:'/impressum'}">
         <b style="margin:20px">Impressum</b>
       </router-link>
-      <div>
-        <v-img src="logo.png" />
-      </div>
+
     </v-footer>
   </v-app>
 </template>
