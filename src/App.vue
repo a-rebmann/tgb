@@ -41,7 +41,7 @@ h4 {
 }
 b,
 i,
-a,
+a{text-decoration: none}
 p {
   color: black;
 }

@@ -37,3 +37,8 @@
 <script>
 export default {};
 </script>
+<style scoped>
+p,h1,h2,h3{
+  color: white;
+}
+</style>
