@@ -4,14 +4,13 @@
 
     <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
     <p>
-      Christian Remann
+      Christian Rebmann
       <br />Hirschackerweg 22
       <br />66453 Gersheim
     </p>
 
     <h2>Kontakt</h2>
     <p>
-      Telefon: &#91;Telefonnummer&#93;
       <br />E-Mail: info@thegaelbach.com
     </p>
 
