@@ -13,7 +13,7 @@
         </div>
         <div style="margin:5px">
           <v-btn href="geplanteEvents.pdf" target="_blank">Geplante Events</v-btn><br>
-          <v-banner two-line style="margin:5px; color:white;background-color:black">
+          <!--v-banner two-line style="margin:5px; color:white;background-color:black">
     <v-icon
       slot="icon"
       color="warning"
@@ -23,7 +23,7 @@
     </v-icon>
     Unter Berücksichtigung der aktuell gültigen Infektionsschutzmaßnahmen können wieder Events terminiert und durchgeführt werden. <br>
     Unter "PUBLIC TASTING" finden Sie die Ankündigung für das nächste Event.
-  </v-banner>
+  </v-banner-->
         </div>
         <div style="margin:5px">
           <v-btn href="VoAnGenTreff-2023.pdf" target="_blank">Public Tasting</v-btn>
