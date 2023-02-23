@@ -26,7 +26,7 @@
   </v-banner-->
         </div>
         <div style="margin:5px">
-          <v-btn href="VoAnGenTreff-2023.pdf" target="_blank">Public Tasting</v-btn>
+          <v-btn href="VoAnCM_2023_04_28.pdf" target="_blank">Public Tasting</v-btn>
         </div>
         <div style="margin:5px">
           <v-btn href="mailto:thegaelbach@gmail.com" target="_blank">Kontakt aufnehmen</v-btn>
