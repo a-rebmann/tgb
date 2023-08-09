@@ -12,7 +12,7 @@
           <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Unser Angebot</v-btn>
         </div>
         <div style="margin:5px">
-          <v-btn href="geplanteEvents_rev01.pdf" target="_blank">Geplante Events</v-btn><br>
+          <v-btn href="geplanteEvents_rev.01.pdf" target="_blank">Geplante Events</v-btn><br>
           <!--v-banner two-line style="margin:5px; color:white;background-color:black">
     <v-icon
       slot="icon"
