@@ -12,7 +12,7 @@
           <v-btn href="TheGaelbach_Flyer.pdf" target="_blank">Unser Angebot</v-btn>
         </div>
         <div style="margin:5px">
-          <v-btn href="geplanteEvents.pdf" target="_blank">Geplante Events</v-btn><br>
+          <v-btn href="geplanteEvents_rev01.pdf" target="_blank">Geplante Events</v-btn><br>
           <!--v-banner two-line style="margin:5px; color:white;background-color:black">
     <v-icon
       slot="icon"
@@ -26,7 +26,7 @@
   </v-banner-->
         </div>
         <div style="margin:5px">
-          <v-btn href="VoAnCM_2023_04_28.pdf" target="_blank">Public Tasting</v-btn>
+          <v-btn href="VoAnGenTreff_2023.pdf" target="_blank">Public Tasting</v-btn>
         </div>
         <div style="margin:5px">
           <v-btn href="mailto:thegaelbach@gmail.com" target="_blank">Kontakt aufnehmen</v-btn>
