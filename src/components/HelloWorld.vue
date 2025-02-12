@@ -15,7 +15,7 @@
           <v-btn href="geplanteEvents_rev.01.pdf" target="_blank">Geplante Events</v-btn><br>
         </div>
         <div style="margin:5px">
-          <v-btn href="VoAnMH_Witt250201.pdf" target="_blank">Public Tasting</v-btn>
+          <v-btn href="VoAn_25GenTrerev00.pdf" target="_blank">Public Tasting</v-btn>
         </div>
         <div style="margin:5px">
           <v-btn href="mailto:thegaelbach@gmail.com" target="_blank">Kontakt aufnehmen</v-btn>
